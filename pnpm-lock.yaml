@@ -11,6 +11,9 @@ importers:
       '@auth/mongodb-adapter':
         specifier: ^3.0.0
         version: 3.0.0(mongodb@6.5.0)
+      '@types/parse-full-name':
+        specifier: ^1.2.5
+        version: 1.2.5
       mongodb:
         specifier: ^6.5.0
         version: 6.5.0
@@ -268,6 +271,9 @@ packages:
 
   '@types/node@20.12.7':
     resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+
+  '@types/parse-full-name@1.2.5':
+    resolution: {integrity: sha512-WUF23RA1BnYknAOlmeECS08OPWuySK1xaC15Gik10lcL+TUnhAWkAvEEaqRaKETXHp8y5TpzUqhIvaW12fqI0g==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1881,6 +1887,8 @@ snapshots:
   '@types/node@20.12.7':
     dependencies:
       undici-types: 5.26.5
+
+  '@types/parse-full-name@1.2.5': {}
 
   '@types/prop-types@15.7.12': {}
 
